@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "src": "/ec",
+      "status": 301,
+      "headers": {
+        "Location": "/earnings-calculator"
+      }
+    },
+    {
+      "src": "/dc",
+      "status": 301,
+      "headers": {
+        "Location": "/data-credits-calculator"
+      }
+    },
+    {
+      "src": "/dcc",
+      "status": 301,
+      "headers": {
+        "Location": "/data-credits-calculator"
+      }
+    },
+    {
+      "src": "/sec",
+      "status": 301,
+      "headers": {
+        "Location": "/simple-earnings-calculator"
+      }
+    },
+    {
+      "src": "/t",
+      "status": 301,
+      "headers": {
+        "Location": "/hnt-current-price"
+      }
+    },
+    {
+      "src": "/hnt",
+      "status": 301,
+      "headers": {
+        "Location": "/hnt-current-price"
+      }
+    },
+    {
+      "src": "/vars",
+      "status": 301,
+      "headers": {
+        "Location": "/chain-vars"
+      }
+    },
+    {
+      "src": "/cv",
+      "status": 301,
+      "headers": {
+        "Location": "/chain-vars"
+      }
+    }
+  ]
+}

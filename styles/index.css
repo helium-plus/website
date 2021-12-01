@@ -1,0 +1,39 @@
+a:focus {
+  box-shadow: 0 0 0 3px rgba(66, 225, 183, 0.31);
+  /* outline: none;
+  border: none; */
+}
+button:focus {
+  box-shadow: 0 0 0 3px rgba(66, 225, 183, 0.31);
+  /* outline: none;
+  border: none; */
+}
+
+.link:focus {
+  /* background-color: #; */
+  outline: 1px solid #42de9f;
+  color: white;
+}
+
+body {
+  background-color: #0c151d;
+  height: 100%;
+  margin: 0;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #42de9f;
+}
+
+::selection {
+  color: black;
+  background: #42de9f;
+}
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;

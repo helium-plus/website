@@ -19,7 +19,7 @@ const About = () => {
               Hi there, and thanks for stopping by! I made this site as a
               passion project. It's{" "}
               <a
-                href="https://github.com/danielcolinjames/helium.plus"
+                href="https://github.com/helium-plus/website"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300"
